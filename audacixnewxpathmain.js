@@ -1154,7 +1154,7 @@ function MyMy() {
     // Initialize the Amazon Cognito credentials provider
     AWS.config.region = 'us-east-1'; // Region
     AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-        IdentityPoolId: 'us-east-1:058c2fab-090c-4297-b851-200f00730c7c',
+        IdentityPoolId: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
     });
 
     var ddb = new AWS.DynamoDB({ apiVersion: '2012-08-10' });
